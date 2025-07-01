@@ -41,7 +41,7 @@ function App() {
               </>
             } />
             <Route path="/block/:height" element={<BlockDetail />} />
-            <Route path="/tx/:hash" element={<TransactionDetail />} />
+            <Route path="/transactions/:hash" element={<TransactionDetail />} />
           </Routes>
         </main>
         {showRpcConfig && (
